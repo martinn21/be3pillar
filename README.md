@@ -14,6 +14,16 @@ Since I don't had time because my current work, I could not include:
 - Unit testings for the different classes
 - Use chunks in order to paginate the users
 - Install and setup of smtp
+- In order to interact with the backend I'm using a fake domain, so you must add the domain in your hosts file
+- For more information check .env.nginx.local under .docker directory
+
 
 ## Requirements
  - Docker
+
+## Steps
+ - docker-compose up
+
+Once you have configured your stack you need to logged in docker
+- docker exec -it be3pillar_dockerized-php-1 bash
+- composer install
